@@ -1,0 +1,29 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "1.10.3",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-vue": "9.26.0",
+    "prettier": "^3.3.2",
+    "typescript": "5.5.2",
+    "vite": "^5.3.1",
+    "vue-eslint-parser": "9.4.3",
+    "vue-tsc": "^2.0.21"
+  },
+  "packageManager": "yarn@3.6.0+sha512.418e45c2268c4d6b69a28f3939084b5853d5f392c43c0b5588bd1995a96e328414ae4b7777a8980c64bad4328c52586ff879b289f98ae65372a55fa4d0ff70dd"
+}
