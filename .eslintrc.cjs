@@ -8,5 +8,6 @@ module.exports = {
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier',
+    'plugin:storybook/recommended',
   ],
 };
